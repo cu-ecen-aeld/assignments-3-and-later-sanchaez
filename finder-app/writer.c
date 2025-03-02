@@ -1,4 +1,4 @@
-/** writer.c
+/** writer WRITEFILE WRITESTR
  Create a WRITEFILE by full path with WRITESTR content */
 #include <syslog.h>
 #include <stdio.h>
@@ -7,7 +7,7 @@
 int main(int argc, char** argv) {
     openlog(NULL,0,LOG_USER);
     if (argc != 3) {
-        syslog(LOG_ERR, "Invalid number of arguments: expected 2 but %d provided", argc);
+        syslog(LOG_ERR, "Invalid number of arguments: expected 3 but %d provided", argc);
         return 1;
     }
 
