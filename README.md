@@ -1,6 +1,6 @@
-# Assignment 1: Bash Scripting Basics
+# Assignment 2: File Operations and Cross Compiler
 
-Implements `student-test/assignment1`, `finder-app/finder.sh` and `finder-app/writer.sh`.
+Implements `finder-app/finder.c` and cross-compiling Makefile.
 
 # aesd-assignments
 This repo contains public starter source code, scripts, and documentation for Advanced Embedded Software Development (ECEN-5713) and Advanced Embedded Linux Development assignments University of Colorado, Boulder.
