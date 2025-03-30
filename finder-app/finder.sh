@@ -1,8 +1,9 @@
+#!/bin/sh
+
 # finder.sh
 # Find a SEARCHSTR in the FILESDIR
 # NOTE: this script does not use /bin/bash as the finder-test uses /bin/sh shell to run the tests
 # This means Bash specific extentions won't work here
-#!/bin/sh
 
 ## Validate args
 if [ $# -ne 2 ]

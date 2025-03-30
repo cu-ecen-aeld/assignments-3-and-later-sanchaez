@@ -1,8 +1,7 @@
+#!/bin/sh
+
 # writer.sh
 # Create a WRITEFILE by full path with WRITESTR content
-# NOTE: this script does not use /bin/bash as the finder-test uses /bin/sh shell to run the tests
-# This means Bash specific extentions won't work here
-#!/bin/sh
 
 ## Validate args
 if [ $# -ne 2 ]
